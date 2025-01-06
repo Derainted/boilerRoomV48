@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>News Aggregator</title>
+</head>
+<body>
+
+    <header>
+        <h1>News Aggregator</h1>
+        <input type="text" id="searchInput" placeholder="Search news articles">
+        <button id="searchButton">Search</button>
+    </header>
+
+    <section>
+        <div id="categories">
+            <button class="category-button" data-category="technology">Technology</button>
+            <button class="category-button" data-category="health">Health</button>
+            <button class="category-button" data-category="sports">Sports</button>
+            <button class="category-button" data-category="business">Business</button>
+        </div>
+
+        <div id="container"></div>
+    </section>
+
+    <div id="loading" class="loading-circle" style="display: none;"></div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
